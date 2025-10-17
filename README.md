@@ -1,7 +1,9 @@
 # Reproducible Workflows: Git/GitHub Commands Task 2
 
-* Fork this repository
-* Clone it to your computer using `git clone <your-forked-repo-url>` - and the SSH URL.
+* Fork this repository by clicking on the fork button in the top right corner of the GitHub page.
+* After forking, you will have your own copy of the repository in your GitHub account
+* Open your command line interface (CLI) or terminal.
+* Clone it to your computer using `git clone <your-forked-SSH-repo-url>` - don't use the HTTPS link.
 * *(git branch - optional)* Create a new branch for your changes: `git checkout -b <your-branch-name>`
 * Find the file with your assigned number in `data/birth-dates/`
 * Open the file and add the correct birth date for the pioneer listed.
