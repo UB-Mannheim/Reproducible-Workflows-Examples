@@ -10,5 +10,10 @@
     * `git add`
     * `git commit`
     * `git push`
-* Open a pull request from your forked repository to the original repository.
+* Open a pull request from your forked repository to the original repository. by doing the following:
+    * Go to your forked repository on GitHub.
+    * Click the "Contribute" button and "Open a pull request".
+    * Add a title and description for your pull request.
+    * Click "Create pull request".
+* Wait for your pull request to be reviewed and merged.
 
