@@ -1,12 +1,4 @@
-# Test Repository for Course "Open and Reproducible Research" @ Uni Mannheim
-
-
-
-
-
-
-
-## Git/GitHub Exercise
+# Reproducible Workflows: Git/GitHub Commands Task 2
 
 * Fork this repository
 * Clone it to your computer
