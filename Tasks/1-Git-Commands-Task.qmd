@@ -1,0 +1,64 @@
+---
+title: "Reproducible Workflows: Git Commands Task 1"
+format:
+  html:
+    code-tools: true
+    highlight-style: github
+---
+
+In the following task you will become familiar with using some of the basic commands in git which you can use to facilitate version control of your own work locally:
+
+1.  Open your command line interface on your computer (Windows, Command Prompt or Power Shell; Mac, Terminal; Linux, CTRL+ALT+T.) and direct to your local documents folder. Then type in the following commands which will make a new folder (mkdir, creates a new directory; cd, changes the directory; ls, lists the contents of the directory):
+
+``` bash
+mkdir Reproducible-Workflows
+```
+
+``` bash
+cd Reproducible-Workflows
+```
+
+2.  Next type in the following git command to initialize the folder as a git repository:
+
+``` bash
+git init
+```
+
+3.  Create a new .txt file and save it in that folder.
+4.  Then type in the following git command in command line interface:
+
+``` bash
+git status
+```
+
+you should see the file you just created in red. This is because it is a new file and their is no record of it in the git repository. We need to add it and commit it to the git repository which we have created.
+
+5.  To do so, run the following git commands:
+
+``` bash
+git add <write the file name here>
+```
+
+``` bash
+git commit <write the file name here> -m "Insert a message about the file here"
+```
+
+6.  Now the file has been added to the git repository and if any changes are made to that file they can be tracked. Try changing something in the text file and run the commands from 4. and 5. again.
+7.  Next lets try branching your git repository so we can make some changes without affecting the main repository. To branch, type in the following:
+
+``` bash
+git checkout -b <insert the name of the branch here>
+```
+
+8.  Now you are in a different branch and you can check this by running 'git status'. Lets make a change in the .txt file which you created and save the file.
+9.  This change is now only in the branch which you have created and we want to bring this change into 'main'. You can do this using the following commands:
+
+``` bash
+git checkout main
+```
+
+``` bash
+git merge <insert the name of the branch here>
+```
+
+That concludes the basic introduction to git commands. There are also other commands that you might find useful, check out the cheat sheet which has been provided on Ilias.
