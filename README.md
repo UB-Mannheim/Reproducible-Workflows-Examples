@@ -1,6 +1,6 @@
-# Reproducible Workflows: Git/GitHub Workflows
+# Reproducible Workflows MMSDS: Git/GitHub Workflows
 
-This repository contains a collection of reproducible workflows using Git and GitHub. The goal is to provide examples and templates for managing projects, version control, and collaboration using these tools.
+This repository contains a collection of tasks exemplifying workflows using Git and GitHub. 
 
 ## Contents
 
@@ -8,4 +8,5 @@ This repository contains a collection of reproducible workflows using Git and Gi
     1.  [Installing and Configuring Git](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/installing_git.html)
     2.  [Getting an Account on GitHub]( https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/github.html)
     3.  [Securing your Connection to GitHub](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
--   **Workflows**: A variety of workflows demonstrating best practices for using Git and GitHub in different scenarios can be found in ./Task.
+-   **Workflows**: A variety of workflows demonstrating the use of Git and GitHub in different scenarios can be found in `./Task`.
+-   **Data:** `./Data` Includes the text files that can be edited as part of the tasks in the Workflows file.
