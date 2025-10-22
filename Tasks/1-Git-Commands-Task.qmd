@@ -4,6 +4,7 @@ format:
   html:
     code-tools: true
     highlight-style: github
+    embed-resources: true
 ---
 
 In the following task you will become familiar with using some of the basic commands in git which you can use to facilitate version control of your own work locally:
