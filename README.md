@@ -1,6 +1,6 @@
 # Reproducible Workflows MMSDS: Git/GitHub Workflows
 
-This repository contains a collection of tasks exemplifying workflows using Git and GitHub. 
+This repository contains tasks exemplifying workflows using Git and GitHub for the Mannheim Masters in Social Data Science at the University of Mannheim. 
 
 ## Contents
 
