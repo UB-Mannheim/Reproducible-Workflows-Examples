@@ -52,7 +52,11 @@ git checkout -b <insert the name of the branch here>
 ```
 
 8.  Now you are in a different branch and you can check this by running 'git status'. Lets make a change in the .txt file which you created and save the file.
-9.  This change is now only in the branch which you have created and we want to bring this change into 'main'. You can do this using the following commands:
+9.  This change is now only in the branch which you have created and we want to bring this change into 'main'.
+
+First, using the commands from 5 add and commit the changes in the branch.
+
+Then you can merge using the following commands:
 
 ``` bash
 git checkout main

@@ -6,21 +6,20 @@ html:
     embed-resources: true
 ---
 
+In the following task you will become familiar with using some of the basic commands and workflows used with both git and github which you can use to facilitate version control of collaborative work:
 
-In the following task you will become familiar with using some of the basic commands and workflows used with both git and github which you can use to facilitate version control of collaborative work (If you have followed what is on the slides you can already skip to step 6.):
-
-1. Fork this repository by clicking on the fork button in the top right corner of the GitHub page.
-2. After forking, you will have your own copy of the repository in your GitHub account.
-3. Open your CLI.
-4. Clone it to your computer using `git clone <your-forked-SSH-repo-url>` - don't use the HTTPS link.
-5. *(git branch - optional)* Create a new branch for your changes: `git checkout -b <your-branch-name>`.
-6. Find the file with your assigned number in `data/birth-dates/`.
-7. Open the file and add the correct birth date for the pioneer listed.
-8. Save the file.
-9. Stage, commit, and push your changes to your forked repository using the process from Task 1.
-10. Open a pull request from your forked repository to the original repository. by doing the following:
-    * Go to your forked repository on GitHub.
-    * Find the area in which you can issue a pull request and click on it.
-    * Add a title and description for your pull request.
-    * Click "Create pull request".
+1.  Fork this repository (<https://github.com/UB-Mannheim/Reproducible-Workflows-Examples>) by clicking on the fork button in the top right corner of the GitHub page.
+2.  After forking, you will have your own copy of the repository in your GitHub account.
+3.  Open your CLI.
+4.  Clone your forked repository to your computer using `git clone <your-forked-SSH-repo-url>` - don't use the HTTPS link use the SSH link.
+5.  *(git branch - optional)* Create a new branch for your changes: `git checkout -b <your-branch-name>`.
+6.  Find the file with your assigned number in `data/birth-dates/`.
+7.  Open the file and add the correct birth date for the pioneer listed.
+8.  Save the file.
+9.  Stage, commit, and push your changes to your forked repository using the process from Task 1.
+10. Open a pull request from your forked repository to the original repository by doing the following:
+    -   Go to your forked repository on GitHub.
+    -   Find the area in which you can issue a pull request and click on it.
+    -   Add a title and description for your pull request.
+    -   Click "Create pull request".
 11. Wait for your pull request to be reviewed and merged.
